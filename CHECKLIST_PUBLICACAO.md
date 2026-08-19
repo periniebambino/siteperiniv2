@@ -1,10 +1,12 @@
-# Checklist de publicação — Colégio Perini
+# Checklist de Publicação — Colégio Perini
 
-Antes de publicar:
-
-- [ ] Subir o conteúdo completo da pasta, não apenas o `index.html`.
-- [ ] Manter as pastas `assets/`, `css/` e `js/` na raiz.
-- [ ] Abrir `index.html` após extrair o ZIP.
-- [ ] Conferir primeira dobra no desktop e no celular.
-- [ ] Conferir WhatsApp, Google Maps, telefone, e-mail e Portal.
-- [ ] Usar `PREVIEW_AUTONOMO_FUNCIONANDO.html` apenas para visualização direta pelo ChatGPT.
+- [ ] Subir somente o conteúdo da pasta `COLEGIO_PERINI_RELEASE_FINAL_PUBLICAVEL`.
+- [ ] Confirmar domínio final oficial.
+- [ ] Se o domínio final não for `https://colegio-perini.vercel.app`, atualizar `robots.txt`, `sitemap.xml`, canonical, `og:url` e `og:image`.
+- [ ] Testar WhatsApp.
+- [ ] Testar Google Maps.
+- [ ] Testar Portal do Aluno.
+- [ ] Testar telefone e e-mail.
+- [ ] Abrir o site em celular real.
+- [ ] Conferir visualmente os crops das fotos.
+- [ ] Testar uma URL inexistente para confirmar o 404.

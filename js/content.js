@@ -1,1 +1,1 @@
-window.PERINI_CONTENT={version:'v5.3-visual-first-final',status:'publicacao-final'};
+window.PERINI_CONTENT={version:'layout-zero-landpage-milena',status:'pronto-para-publicacao'};

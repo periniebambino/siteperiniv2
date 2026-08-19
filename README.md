@@ -1,20 +1,43 @@
-# Colégio Perini — Refino COC sem cara de IA
+# Colégio Perini — Release Final Publicável
 
-Versão refinada sobre o projeto existente, com foco em remover ruído visual, aparência de IA e excesso de botões/cards.
+Esta pasta contém apenas os arquivos necessários para publicação estática do site.
 
 ## Como abrir
-- Para publicar: use `index.html` na raiz com as pastas `assets/`, `css/` e `js/`.
-- Para pré-visualizar no ChatGPT ou localmente: abra `ABRIR_PREVIEW_LOCAL.html`.
 
-## O que foi corrigido
-- Imagens artificiais dos ciclos substituídas por fotos reais do acervo do Colégio Perini.
-- Ícones decorativos, pills e microcards genéricos reduzidos.
-- CTAs repetidos removidos; mantidos CTA principal e fechamento de contato.
-- CSS consolidado com escala, grids e densidade mais sóbria.
-- Assets não usados foram removidos da pasta final.
+Abra `index.html` em um navegador ou publique a pasta inteira em GitHub Pages, Vercel, Netlify ou hospedagem estática equivalente.
 
 ## Arquivo principal
-`index.html`
 
-## Pendência real
-Validar visualmente os crops das fotos reais em celular e desktop antes da publicação final.
+`index.html` na raiz.
+
+## Como publicar
+
+Suba todo o conteúdo desta pasta mantendo a estrutura:
+
+- `index.html`
+- `404.html`
+- `css/`
+- `js/`
+- `assets/`
+- `robots.txt`
+- `sitemap.xml`
+- `manifest.webmanifest`
+- `.nojekyll`
+- `vercel.json`
+
+## Dependências externas
+
+Não há bibliotecas externas obrigatórias. Links externos usados: WhatsApp, Portal COC, Google Maps.
+
+## Domínio
+
+Domínio provisório usado nos metadados: `https://colegio-perini.vercel.app`. Atualize `robots.txt`, `sitemap.xml`, canonical, `og:url` e `og:image` quando o domínio final oficial for definido.
+
+## Principais correções pós-auditoria
+
+- `404.html` refeito com classes existentes/novas e visual institucional.
+- `vercel.json` corrigido sem rewrite global para `index.html`.
+- Manifest e favicons quadrados criados.
+- SEO técnico básico incluído no `head`.
+- Pasta publicável separada dos arquivos de validação e previews pesados.
+- Validação estática de assets, links, HTML e estrutura do ZIP.

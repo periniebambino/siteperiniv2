@@ -1,10 +1,20 @@
-
 (function(){
-  const btn=document.getElementById('menu-toggle');
-  const menu=document.getElementById('mobile-menu');
-  const close=()=>{menu?.classList.remove('is-open');document.body.classList.remove('menu-open');btn?.setAttribute('aria-expanded','false')};
-  btn?.addEventListener('click',()=>{const open=!menu.classList.contains('is-open');menu.classList.toggle('is-open',open);document.body.classList.toggle('menu-open',open);btn.setAttribute('aria-expanded',String(open));});
-  document.querySelectorAll('.mobile-link').forEach(a=>a.addEventListener('click',close));
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
-  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  const toggle=document.querySelector('.menu-toggle');
+  const nav=document.querySelector('.site-nav');
+  if(toggle && nav){
+    toggle.addEventListener('click',()=>{
+      const open=nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded','false');
+    }));
+    document.addEventListener('keydown',(ev)=>{
+      if(ev.key==='Escape'){
+        nav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded','false');
+      }
+    });
+  }
 })();
