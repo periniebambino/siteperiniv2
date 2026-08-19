@@ -87,3 +87,164 @@ p{font-size:clamp(1rem,1.05vw,1.125rem);line-height:1.62;color:var(--text)}
 .not-found-actions .not-found-link{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 1.45rem;border-radius:999px;font-weight:850;border:1px solid rgba(6,29,67,.12);color:var(--blue-800);background:white}
 .not-found-actions .not-found-link.primary{background:var(--orange);border-color:var(--orange);color:white;box-shadow:0 12px 26px rgba(255,106,0,.22)}
 @media(max-width:560px){.not-found-page{padding:24px}.not-found-card{border-radius:22px;padding:26px}.not-found-actions{display:grid}.not-found-actions .not-found-link{width:100%}}
+
+/* ======================================================================
+   REFino Fotografia + UX — intervenção final mínima e segura
+   Objetivo: reduzir ruído de IA, proteger fotos, tirar overlays de rostos
+   e transformar legendas em leitura editorial.
+   ====================================================================== */
+
+:root{
+  --photo-radius: 24px;
+  --caption-bg: #fffdf9;
+}
+
+/* Todas as imagens editoriais devem ter corte consciente e não deformar. */
+.hero-photo img,
+.intro-media img,
+.stage-media img,
+.coc-photo img,
+.project-feature img,
+.project-card img,
+.high-media img,
+.structure-photo img,
+.family-media img{
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Legendas deixam de cobrir fotografia. Texto não deve tapar aluno, rosto ou ação. */
+.caption-card,
+.project-caption{
+  position: static;
+  inset: auto;
+  margin-top: 12px;
+  background: var(--caption-bg);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* Introdução e família: fotografia com proporção editorial, sem crop agressivo. */
+.intro-media img{
+  aspect-ratio: 4 / 3;
+  object-position: center 22%;
+  border-radius: var(--photo-radius);
+}
+.family-media img{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 18%;
+  border-radius: var(--photo-radius);
+}
+
+/* Ciclos: manter força visual, mas impedir cards enormes e cortes sem sentido. */
+.stage-media{
+  min-height: 340px;
+}
+.stage-media.initial img{
+  object-position: center 38%;
+}
+.stage-media.final img{
+  object-position: center 48%;
+}
+.stage-media.medium img{
+  object-position: center 34%;
+}
+.stage-content{
+  justify-content: center;
+}
+.stage-meta span{
+  background: #eef5fb;
+  border: 1px solid rgba(6,29,67,.08);
+}
+.stage-details div{
+  border-top-color: rgba(10,59,125,.16);
+}
+
+/* Projetos: foto protagonista + legenda abaixo, nunca em cima das pessoas. */
+.project-feature,
+.project-card{
+  display: grid;
+  grid-template-rows: auto auto;
+  overflow: visible;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+.project-feature img,
+.project-card img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--photo-radius);
+  box-shadow: var(--shadow-sm);
+  background: #e8f0f6;
+}
+.project-feature img{
+  aspect-ratio: 4 / 3;
+  object-position: center 48%;
+}
+.project-card img{
+  aspect-ratio: 16 / 10;
+}
+.project-card:nth-child(1) img{object-position:center 44%;}
+.project-card:nth-child(2) img{object-position:center 32%;}
+.project-card:nth-child(3) img{object-position:center 45%;}
+.project-card:nth-child(4) img{object-position:center 42%;}
+.project-proofline{
+  margin-top: 22px;
+  color: var(--blue-800);
+  font-weight: 850;
+  letter-spacing: .01em;
+  border-left: 3px solid var(--green);
+  padding-left: 16px;
+}
+
+/* Prova rápida: palavra grande sem parecer número aleatório. */
+.proof-item b.proof-word{
+  font-size: clamp(1.55rem,2.3vw,2.1rem);
+  letter-spacing: -.04em;
+}
+
+/* Ensino Médio: detalhe científico com legenda fora da imagem. */
+.high-media img{
+  aspect-ratio: 4 / 3;
+  object-position: center 44%;
+  border-radius: var(--photo-radius);
+}
+.high-media .caption-card{
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+
+/* Mapa/contato: acabamento mais institucional e menos card decorativo. */
+.map-card{
+  min-height: 100%;
+}
+.map-card::before{
+  opacity: .55;
+}
+
+@media(max-width:1024px){
+  .stage-media{min-height:0;height:auto;aspect-ratio:16/10;}
+  .intro-media img,.family-media img,.high-media img{aspect-ratio:16/10;}
+}
+@media(max-width:760px){
+  .caption-card,.project-caption{padding:13px 14px;border-radius:15px;}
+  .stage-media,.stage-media.initial,.stage-media.medium{aspect-ratio:4/3;}
+  .stage-media.final{aspect-ratio:16/10;}
+  .project-feature img{aspect-ratio:4/3;}
+  .project-card img{aspect-ratio:16/10;}
+  .project-proofline{font-size:1rem;line-height:1.55;}
+}
+@media(max-width:430px){
+  .project-feature img,.project-card img,.intro-media img,.family-media img,.high-media img{border-radius:20px;}
+  .stage-media,.stage-media.initial,.stage-media.medium{aspect-ratio:1.18/1;}
+}
+

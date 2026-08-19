@@ -41,3 +41,8 @@ Domínio provisório usado nos metadados: `https://colegio-perini.vercel.app`. A
 - SEO técnico básico incluído no `head`.
 - Pasta publicável separada dos arquivos de validação e previews pesados.
 - Validação estática de assets, links, HTML e estrutura do ZIP.
+
+
+## Refino Fotografia + UX
+
+Esta release recebeu ajustes finais de fotografia, UX e direção de arte: legendas deixam de cobrir imagens, fotos dos ciclos foram revistas, duplicidade visual do Ensino Médio foi reduzida e componentes de prova visual foram refinados sem alterar copy aprovada.
