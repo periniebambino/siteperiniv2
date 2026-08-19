@@ -1,28 +1,20 @@
-# Colégio Perini — Versão Escala Profissional Final
+# Colégio Perini — Refino COC sem cara de IA
 
-Projeto final corrigido sobre a base congelada `COLEGIO_PERINI_FINAL_PRONTO_PARA_SUBIR(1)(1).zip`.
+Versão refinada sobre o projeto existente, com foco em remover ruído visual, aparência de IA e excesso de botões/cards.
 
 ## Como abrir
+- Para publicar: use `index.html` na raiz com as pastas `assets/`, `css/` e `js/`.
+- Para pré-visualizar no ChatGPT ou localmente: abra `ABRIR_PREVIEW_LOCAL.html`.
 
-- Para publicar: subir todos os arquivos desta pasta, mantendo `index.html`, `css/`, `js/` e `assets/` na mesma estrutura.
-- Para visualizar dentro do ChatGPT ou sem depender de caminhos relativos: abrir `ABRIR_PREVIEW_LOCAL.html`.
-- Para desenvolvimento/local normal: abrir `index.html` com a pasta completa extraída.
+## O que foi corrigido
+- Imagens artificiais dos ciclos substituídas por fotos reais do acervo do Colégio Perini.
+- Ícones decorativos, pills e microcards genéricos reduzidos.
+- CTAs repetidos removidos; mantidos CTA principal e fechamento de contato.
+- CSS consolidado com escala, grids e densidade mais sóbria.
+- Assets não usados foram removidos da pasta final.
 
 ## Arquivo principal
-
 `index.html`
 
-## Principais correções
-
-- Escala global recalibrada.
-- Tipografia fluida com limites máximos.
-- Containers controlados em até 1280px.
-- Seções sem alturas exageradas.
-- Cards compactos e proporcionais ao conteúdo.
-- Imagens com aspect-ratio e object-fit controlados.
-- Breakpoints revisados para desktop, notebook, tablet e mobile.
-- CSS consolidado sem pilha de patches antigos.
-
-## Pendências reais
-
-A aprovação final de crop de foto ainda depende de olho humano, porque envolve julgamento visual de alunos, rostos e contexto pedagógico.
+## Pendência real
+Validar visualmente os crops das fotos reais em celular e desktop antes da publicação final.
