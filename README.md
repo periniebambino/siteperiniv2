@@ -1,42 +1,28 @@
-# Colégio Perini — V5.6 Milena Plus Final
+# Colégio Perini — Versão Escala Profissional Final
 
-Versão pronta para subir baseada na V5.5, com aplicação segura da metodologia Milena de layout reverso.
+Projeto final corrigido sobre a base congelada `COLEGIO_PERINI_FINAL_PRONTO_PARA_SUBIR(1)(1).zip`.
 
-## O que esta versão preserva
+## Como abrir
 
-- Copy pedagógica aprovada.
-- Arquitetura comercial do site.
-- Hero limpo com CTA principal.
-- Ciclos fortalecidos.
-- Sistema COC explicado como parceiro pedagógico.
-- Mapa e contato como fechamento de conversão.
-- Curadoria de fotos com cuidado de enquadramento.
+- Para publicar: subir todos os arquivos desta pasta, mantendo `index.html`, `css/`, `js/` e `assets/` na mesma estrutura.
+- Para visualizar dentro do ChatGPT ou sem depender de caminhos relativos: abrir `ABRIR_PREVIEW_LOCAL.html`.
+- Para desenvolvimento/local normal: abrir `index.html` com a pasta completa extraída.
 
-## Plus final aplicado
+## Arquivo principal
 
-- Mais materialidade visual sem trocar a identidade.
-- Assinatura discreta por ciclo: base, autonomia e preparação.
-- Microinterações úteis em cards, botões e fotos.
-- Foco visível para acessibilidade.
-- Ritmo editorial mais maduro no desktop.
-- Proteção mobile para evitar efeitos desnecessários.
+`index.html`
 
-## Arquivos principais
+## Principais correções
 
-- `index.html` — página principal.
-- `css/perini.css` — estilos, incluindo o bloco V5.6 Milena Plus.
-- `js/config.js` — contatos e links.
-- `js/content.js` — conteúdo editável.
-- `js/images.js` — imagens principais.
-- `docs/QA-V5.6.md` — validações finais.
-- `docs/DECISIONS-V5.6.md` — decisões de direção.
-- `docs/PHOTO-AUDIT-V5.6.md` — auditoria de fotografia.
+- Escala global recalibrada.
+- Tipografia fluida com limites máximos.
+- Containers controlados em até 1280px.
+- Seções sem alturas exageradas.
+- Cards compactos e proporcionais ao conteúdo.
+- Imagens com aspect-ratio e object-fit controlados.
+- Breakpoints revisados para desktop, notebook, tablet e mobile.
+- CSS consolidado sem pilha de patches antigos.
 
-## Publicação
+## Pendências reais
 
-Subir todo o conteúdo da pasta no GitHub/Vercel. Manter a estrutura de arquivos exatamente como entregue.
-
-
-## V5.7 — Correção Real Navegada
-
-Versão gerada após navegação/renderização da V5.6. Corrige preenchimento de imagens em `<picture>` no hero e nos ciclos, normaliza WebP e preserva copy/arquitetura aprovadas.
+A aprovação final de crop de foto ainda depende de olho humano, porque envolve julgamento visual de alunos, rostos e contexto pedagógico.
