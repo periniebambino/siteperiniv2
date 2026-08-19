@@ -1,1 +1,1 @@
-window.PERINI_CONTENT={version:'v4.9-nota-maxima',status:'publicacao-premium'};
+window.PERINI_CONTENT={version:'v5.3-visual-first-final',status:'publicacao-final'};
