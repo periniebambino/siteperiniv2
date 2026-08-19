@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colégio Perini | Escola Particular em Carapicuíba, Região de Osasco</title>
+  <meta name="description" content="Conheça o Colégio Perini, escola particular em Carapicuíba com Sistema COC, Ensino Fundamental, Ensino Médio, acompanhamento pedagógico e parceria com a família.">
+  <meta name="theme-color" content="#082f63">
+  <link rel="canonical" href="https://colegio-perini.vercel.app/">
+  <meta property="og:title" content="Colégio Perini | Aprender. Pertencer. Transformar.">
+  <meta property="og:description" content="Escola particular em Carapicuíba com Sistema COC, Ensino Fundamental, Ensino Médio, projetos reais e acompanhamento próximo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://colegio-perini.vercel.app/">
+  <meta property="og:image" content="https://colegio-perini.vercel.app/assets/social/og-perini.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="format-detection" content="telephone=yes">
+  <link rel="icon" href="assets/brand/logo-colegio-perini-cropped.png">
+  <link rel="preload" as="image" href="assets/hero/fachada-perini-desktop.webp" imagesrcset="assets/hero/fachada-perini-mobile.webp 900w, assets/hero/fachada-perini-desktop.webp 1600w" imagesizes="(max-width: 760px) 100vw, 48vw">
+  <style>
+:root{
+  --blue-950:#06234f;--blue-900:#082f63;--blue-800:#0b4b8f;--blue-650:#0d70b7;
+  --orange:#ff6a00;--orange-700:#e65300;--green:#82b923;--green-700:#679918;
+  --ink:#082b55;--text:#294b6e;--muted:#667f98;--line:rgba(8,47,99,.14);
+  --surface:#f6f9fc;--surface-blue:#eef7fc;--white:#fff;
+  --shadow:0 24px 64px rgba(8,47,99,.12);--shadow-sm:0 12px 32px rgba(8,47,99,.08);
+  --radius:26px;--radius-lg:38px;--container:min(1180px,calc(100% - 42px));--ease:cubic-bezier(.2,.8,.2,1);
+  --font:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:var(--font);color:var(--text);background:#fff;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}body.menu-open{overflow:hidden}img{display:block;max-width:100%}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}h1,h2,h3,p{margin-top:0}h1,h2,h3{color:var(--ink);line-height:1.02;letter-spacing:-.038em}h1{font-size:clamp(3rem,6vw,5.85rem)}h2{font-size:clamp(2rem,3.65vw,3.7rem)}h3{font-size:clamp(1.18rem,1.7vw,1.55rem)}p{font-size:clamp(1rem,1.04vw,1.1rem)}.container{width:var(--container);margin-inline:auto}.section{padding:clamp(4.4rem,6.6vw,7rem) 0}.surface{background:var(--surface)}.surface-blue{background:var(--surface-blue)}.kicker{display:inline-flex;align-items:center;gap:.66rem;margin-bottom:.9rem;color:var(--blue-800);font-size:.74rem;text-transform:uppercase;letter-spacing:.13em;font-weight:900}.kicker:before{content:"";display:inline-block;width:28px;height:2px;border-radius:20px;background:var(--orange)}.section-head{max-width:780px;margin-bottom:2.4rem}.section-head.centered{margin-inline:auto;text-align:center}.section-head.centered .kicker{justify-content:center}.section-head.no-margin{margin-bottom:0}.section-head p{max-width:700px;color:var(--muted)}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 1.25rem;border:1px solid transparent;border-radius:999px;font-weight:900;white-space:nowrap;transition:.22s var(--ease);line-height:1}.btn-small{min-height:42px;padding-inline:1rem}.btn-primary{background:var(--orange);color:#fff;box-shadow:0 14px 30px rgba(255,106,0,.22)}.btn-primary:hover{background:var(--orange-700);transform:translateY(-2px)}.btn-secondary{background:#fff;color:var(--blue-950);border-color:var(--line)}.btn-secondary:hover{transform:translateY(-2px);border-color:rgba(8,47,99,.28)}.skip-link{position:fixed;top:-90px;left:1rem;z-index:9999;background:#fff;padding:.8rem 1rem;border-radius:14px;box-shadow:var(--shadow-sm)}.skip-link:focus{top:1rem}:focus-visible{outline:3px solid rgba(255,106,0,.52);outline-offset:3px}
+/* Header */
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:1.2rem}.brand img{width:174px;height:auto;max-height:60px;object-fit:contain}.desktop-nav{display:flex;align-items:center;gap:1rem;font-size:.86rem;font-weight:850;color:var(--ink)}.desktop-nav a:not(.btn){position:relative;opacity:.92}.desktop-nav a:not(.btn):after{content:"";position:absolute;left:0;right:100%;bottom:-8px;height:2px;background:var(--orange);transition:.2s}.desktop-nav a:hover:after{right:0}.menu-toggle{display:none;width:48px;height:48px;border:0;border-radius:999px;background:#fff;box-shadow:var(--shadow-sm);align-items:center;justify-content:center}.menu-toggle span,.menu-toggle span:before,.menu-toggle span:after{display:block;position:relative;width:22px;height:2px;background:var(--ink);transition:.2s}.menu-toggle span:before,.menu-toggle span:after{content:"";position:absolute;left:0}.menu-toggle span:before{top:-7px}.menu-toggle span:after{top:7px}.menu-toggle[aria-expanded="true"] span{background:transparent}.menu-toggle[aria-expanded="true"] span:before{top:0;transform:rotate(45deg)}.menu-toggle[aria-expanded="true"] span:after{top:0;transform:rotate(-45deg)}.mobile-menu{position:fixed;inset:0;z-index:999;background:linear-gradient(180deg,#fff,#f6fbff);padding:98px 22px 28px;transform:translateX(104%);transition:.3s var(--ease);overflow:auto}.mobile-menu.is-open{transform:none}.mobile-menu nav{display:grid;gap:.25rem}.mobile-link{padding:1rem 0;border-bottom:1px solid var(--line);font-size:1.14rem;font-weight:900;color:var(--ink);display:flex;justify-content:space-between}.mobile-link:after{content:"→";color:var(--orange)}.mobile-cta{display:grid;gap:.75rem;margin-top:1.15rem}
+/* Hero */
+.hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#f9fcff 0%,#fff 45%,#edf7fc 100%);padding:clamp(2.6rem,4.8vw,5.4rem) 0 3.5rem}.hero:before{content:"";position:absolute;left:-220px;top:-260px;width:520px;height:520px;border-radius:50%;background:var(--orange);filter:blur(110px);opacity:.08}.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(2rem,4.3vw,4.6rem);align-items:center}.hero-copy{max-width:650px}.hero h1{margin-bottom:1.15rem}.hero h1 span{display:block}.hero h1 span:nth-child(1){color:var(--blue-950)}.hero h1 span:nth-child(2){color:var(--orange)}.hero h1 span:nth-child(3){color:var(--green)}.hero-copy p{max-width:620px;font-size:clamp(1.08rem,1.45vw,1.24rem);color:#44627f}.hero-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin:1.7rem 0 0}.hero-notes{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.6rem}.hero-notes span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.58rem .8rem;color:var(--ink);font-weight:850;font-size:.88rem;box-shadow:0 6px 18px rgba(8,47,99,.05)}.hero-media{position:relative;margin:0;aspect-ratio:1.24/1;overflow:hidden;border-radius:48px 18px 48px 48px;box-shadow:var(--shadow);background:var(--surface-blue)}.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center}.hero-media figcaption{position:absolute;left:18px;right:auto;bottom:18px;max-width:275px;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.72);border-radius:22px;padding:1rem 1.1rem;box-shadow:var(--shadow-sm)}.hero-media strong{display:block;color:var(--blue-950);font-size:1rem;line-height:1.12}.hero-media span{display:block;color:var(--muted);font-size:.9rem;line-height:1.34;margin-top:.25rem}
+/* Proof */
+.proof{background:var(--blue-950);color:#fff}.proof-compact{padding:1.25rem 0}.proof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}.proof-item{padding:.95rem 1.35rem;border-right:1px solid rgba(255,255,255,.14);min-width:0}.proof-item:first-child{padding-left:0}.proof-item:last-child{border-right:0}.proof-item strong{display:block;color:#fff;font-size:clamp(1.05rem,1.45vw,1.45rem);line-height:1.06;letter-spacing:-.025em;margin-bottom:.38rem;max-width:18ch}.proof-item span{display:block;color:#c9dbef;font-size:.9rem;line-height:1.35;max-width:26ch;font-weight:750}
+/* Essence */
+.essence-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:2rem;align-items:start}.essence-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.essence-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:1.35rem;box-shadow:var(--shadow-sm)}.essence-card span{display:block;color:var(--orange);font-weight:950;margin-bottom:.7rem}.essence-card h3{margin-bottom:.5rem}.essence-card p{color:var(--muted);font-size:.96rem;margin-bottom:0}
+/* Stages */
+.stages-grid{display:grid;gap:1.25rem}.stage-card{display:grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm);min-height:410px}.stage-card.reverse .stage-media{order:2}.stage-card.featured{background:linear-gradient(135deg,#fff,#fff8f2);border-color:rgba(255,106,0,.24)}.stage-media{margin:0;min-height:410px;background:var(--surface-blue)}.stage-media img{width:100%;height:100%;object-fit:cover;object-position:center}.stage-copy{padding:clamp(1.65rem,3.5vw,3.25rem);display:flex;flex-direction:column;justify-content:center}.stage-copy small{font-weight:950;text-transform:uppercase;letter-spacing:.08em;color:var(--blue-800);line-height:1.25}.stage-copy .years{font-weight:950;color:var(--green-700);font-size:1.17rem;margin:.45rem 0 1rem}.stage-copy p{color:var(--muted)}.stage-copy ul{list-style:none;margin:1rem 0 1.25rem;padding:0;display:grid;gap:.45rem}.stage-copy li{display:flex;gap:.55rem;font-weight:780;color:#365a7e}.stage-copy li:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--orange);margin-top:.55rem;flex:0 0 8px}
+/* COC */
+.coc-section{background:linear-gradient(180deg,#eef7fc 0,#f8fbff 100%)}.coc-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.2rem;align-items:center}.coc-copy{max-width:640px}.coc-copy p{color:#4d6a86;max-width:62ch}.coc-synthesis{display:inline-block;background:#fff;border-left:4px solid var(--orange);border-radius:18px;padding:1rem 1.05rem;box-shadow:var(--shadow-sm);font-weight:900;color:var(--blue-950)!important}.coc-cards{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}.coc-cards article{background:#fff;border:1px solid var(--line);border-radius:24px;padding:1.15rem;box-shadow:0 8px 22px rgba(8,47,99,.05)}.coc-cards strong{display:block;color:var(--ink);font-size:1.04rem;line-height:1.16;margin-bottom:.42rem}.coc-cards span{display:block;color:var(--muted);font-size:.94rem;line-height:1.42}.coc-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.35rem}
+/* Projects + Gallery */
+.projects-intro{display:grid;grid-template-columns:1fr .82fr;gap:2rem;align-items:end}.pedagogy-list{display:flex;flex-wrap:wrap;gap:.55rem;justify-content:flex-end}.pedagogy-list span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.65rem .85rem;font-weight:900;color:var(--ink);box-shadow:0 6px 18px rgba(8,47,99,.05)}.gallery-wrap{margin-top:2rem}.gallery-head{display:grid;grid-template-columns:.8fr 1.2fr;gap:1rem;align-items:end;margin-bottom:1rem}.gallery-head h3{font-size:clamp(1.65rem,2.6vw,2.4rem);margin:0}.gallery-head p{margin:0;color:var(--muted);max-width:720px}.editorial-gallery{display:grid;grid-template-columns:1.25fr .85fr .85fr;grid-auto-rows:260px;gap:1rem}.gallery-item{position:relative;margin:0;overflow:hidden;border-radius:28px;background:#dce9f4;box-shadow:var(--shadow-sm)}.gallery-item.large{grid-row:span 2}.gallery-item.tall{grid-row:span 2}.gallery-item img{width:100%;height:100%;object-fit:cover}.gallery-item.large img{object-position:center 48%}.gallery-item.tall img{object-position:center 44%}.gallery-item figcaption{position:absolute;left:14px;right:14px;bottom:14px;background:rgba(255,255,255,.95);border:1px solid rgba(255,255,255,.62);border-radius:18px;padding:.78rem .88rem;box-shadow:var(--shadow-sm)}.gallery-item strong{display:block;color:var(--ink);font-size:.96rem;line-height:1.15}.gallery-item span{display:block;color:var(--muted);font-size:.86rem;line-height:1.34;margin-top:.2rem}.gallery-cta{margin-top:1.2rem;display:flex;justify-content:center}
+/* Ensino Médio */
+.high-school-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center}.high-school-copy{max-width:670px}.high-school-copy p{color:var(--muted)}.phase-list{display:grid;gap:.85rem;margin:1.3rem 0}.phase-list article{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:1rem 1.05rem}.phase-list span{display:block;color:var(--blue-800);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;font-weight:950}.phase-list h3{font-size:1.15rem;margin:.25rem 0}.phase-list p{font-size:.94rem;margin:0}.safe-note{display:inline-block;background:var(--blue-950);color:#fff;border-radius:18px;padding:.85rem 1rem;font-weight:900;margin:0 0 1.1rem}.high-school-photo{position:relative;margin:0;min-height:610px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);background:#dbe8f1}.high-school-photo img{width:100%;height:100%;object-fit:cover;object-position:center 56%}.high-school-photo figcaption{position:absolute;left:16px;right:16px;bottom:16px;background:rgba(255,255,255,.95);border-radius:20px;padding:.95rem 1rem;box-shadow:var(--shadow-sm)}.high-school-photo strong{display:block;color:var(--ink);line-height:1.15}.high-school-photo span{display:block;color:var(--muted);font-size:.9rem;margin-top:.22rem}
+/* Team */
+.team-grid{display:grid;grid-template-columns:1fr .72fr;gap:2.2rem;align-items:center}.team-copy{max-width:700px}.team-copy p{color:var(--muted)}.commitment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem;margin-top:1.4rem}.commitment-grid article{background:#fff;border:1px solid var(--line);border-radius:20px;padding:1rem;box-shadow:var(--shadow-sm)}.commitment-grid strong{display:block;color:var(--ink);line-height:1.16}.commitment-grid span{display:block;color:var(--muted);font-size:.9rem;margin-top:.3rem}.team-photo{position:relative;margin:0;min-height:430px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm);background:#dce9f4}.team-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}.team-photo figcaption{position:absolute;left:14px;right:14px;bottom:14px;background:rgba(255,255,255,.95);border-radius:18px;padding:.82rem .9rem;box-shadow:var(--shadow-sm)}.team-photo strong{display:block;color:var(--ink);line-height:1.15}.team-photo span{display:block;color:var(--muted);font-size:.88rem;margin-top:.2rem}
+/* Structure */
+.structure-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:2rem;align-items:center}.structure-copy ul{list-style:none;padding:0;margin:1.15rem 0 0;display:grid;grid-template-columns:1fr 1fr;gap:.65rem}.structure-copy li{background:var(--surface);border-radius:14px;padding:.75rem .85rem;font-weight:850;color:var(--ink)}.structure-photos{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.structure-photos figure{position:relative;margin:0;min-height:235px;border-radius:26px;overflow:hidden;background:#dce9f4;box-shadow:var(--shadow-sm)}.structure-photos figure:first-child{grid-column:1/-1;min-height:330px}.structure-photos img{width:100%;height:100%;object-fit:cover}.structure-photos figcaption{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.94);border-radius:16px;padding:.66rem .8rem;font-weight:900;color:var(--ink);box-shadow:var(--shadow-sm)}
+/* Family + Contact */
+.family-box{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(1.6rem,3vw,2.6rem);box-shadow:var(--shadow-sm)}.family-box p{max-width:780px;color:var(--muted)}.contact-section{background:linear-gradient(180deg,#fff,#eef7fc)}.contact-final-grid{display:grid;grid-template-columns:1.05fr .9fr .72fr;gap:1rem;align-items:stretch}.contact-copy,.contact-card,.location-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(1.45rem,2.6vw,2.2rem);box-shadow:var(--shadow-sm)}.contact-copy p{color:var(--muted);max-width:640px}.contact-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem}.contact-card{font-style:normal;display:grid;gap:1rem}.contact-card small{display:block;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:950;font-size:.72rem}.contact-card a,.contact-card span{font-weight:850;color:var(--ink);line-height:1.4}.location-card{background:linear-gradient(135deg,var(--blue-950),var(--blue-800));color:#fff;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;min-height:340px}.location-card:before{content:"";position:absolute;inset:18px;border:1px solid rgba(255,255,255,.18);border-radius:30px}.location-card strong{font-size:clamp(2rem,3vw,3.2rem);line-height:.95;letter-spacing:-.05em;position:relative}.location-card span{color:#cfe1f3;position:relative;margin:.35rem 0 1.1rem;font-weight:800}.location-card a{position:relative;display:inline-flex;align-self:flex-start;background:var(--orange);color:#fff;border-radius:999px;padding:.8rem 1rem;font-weight:950}
+/* Footer */
+.footer{background:#061e44;color:#d9e7f5;padding:3.4rem 0 5rem}.footer-grid{display:grid;grid-template-columns:1.35fr repeat(3,1fr);gap:2rem}.footer-logo{width:170px;height:auto;margin-bottom:1rem}.footer h3{color:#fff;font-size:1rem;letter-spacing:0}.footer a{display:block;margin:.45rem 0;color:#d9e7f5}.footer a:hover{color:var(--orange)}.footer p{color:#b8cbe0;font-size:.96rem}.footer-bottom{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.1);margin-top:2.2rem;padding-top:1.2rem;color:#b8cbe0;font-size:.9rem}.sticky-mobile-cta{display:none}
+@media(max-width:1120px){.desktop-nav{display:none}.menu-toggle{display:flex}.hero-grid,.essence-grid,.coc-grid,.projects-intro,.high-school-grid,.team-grid,.structure-grid,.contact-final-grid{grid-template-columns:1fr}.proof-grid{grid-template-columns:repeat(2,1fr)}.proof-item:nth-child(2){border-right:0}.proof-item:nth-child(3){padding-left:0}.essence-cards,.commitment-grid{grid-template-columns:1fr 1fr}.stage-card,.stage-card.reverse{grid-template-columns:1fr}.stage-card.reverse .stage-media{order:0}.projects-intro{align-items:start}.pedagogy-list{justify-content:flex-start}.editorial-gallery{grid-template-columns:1fr 1fr;grid-auto-rows:260px}.gallery-item.large,.gallery-item.tall{grid-row:span 1}.high-school-photo{min-height:480px}.team-photo{min-height:360px}.contact-final-grid{grid-template-columns:1fr 1fr}.contact-copy{grid-column:1/-1}.location-card{min-height:260px}.family-box{grid-template-columns:1fr}}
+@media(max-width:760px){:root{--container:calc(100% - 28px)}.nav{height:74px}.brand img{width:150px}.section{padding:3.55rem 0}.hero{padding:2.15rem 0 2.6rem}.hero h1{font-size:clamp(2.72rem,14vw,4rem)}.hero-actions{display:grid}.hero-actions .btn{width:100%}.hero-notes{gap:.45rem}.hero-notes span{font-size:.82rem}.hero-media{margin-top:.2rem;border-radius:30px 12px 30px 30px;aspect-ratio:1/1.03}.hero-media figcaption{position:relative;left:auto;bottom:auto;right:auto;margin:-30px 12px 12px}.proof-compact{padding:1rem 0}.proof-grid,.essence-cards,.coc-cards,.editorial-gallery,.commitment-grid,.structure-copy ul,.structure-photos,.contact-final-grid{grid-template-columns:1fr}.proof-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.13);padding:.85rem 0}.proof-item:last-child{border-bottom:0}.proof-item strong{font-size:1.22rem;max-width:none}.proof-item span{max-width:none}.section-head.centered{text-align:left}.section-head.centered .kicker{justify-content:flex-start}.stage-card{min-height:0}.stage-media{min-height:250px}.stage-copy{padding:1.35rem}.stage-copy small{font-size:.74rem}.gallery-head{grid-template-columns:1fr}.editorial-gallery{grid-auto-rows:auto}.gallery-item,.gallery-item.large,.gallery-item.tall{min-height:260px}.gallery-item figcaption{position:relative;left:auto;right:auto;bottom:auto;margin:-24px 12px 12px}.high-school-photo{min-height:390px}.high-school-photo figcaption,.team-photo figcaption{position:relative;left:auto;right:auto;bottom:auto;margin:-22px 12px 12px}.team-photo{min-height:300px}.structure-photos figure,.structure-photos figure:first-child{min-height:250px}.contact-actions{display:grid}.contact-actions .btn{width:100%}.footer-grid{grid-template-columns:1fr}.footer{padding-bottom:6rem}.sticky-mobile-cta{position:fixed;z-index:1200;left:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr;box-shadow:0 -12px 30px rgba(8,47,99,.18)}.sticky-mobile-cta a{height:56px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:950}.sticky-mobile-cta a:first-child{background:var(--orange)}.sticky-mobile-cta a:last-child{background:var(--green-700)}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* V5.0 — limpeza premium segura: remove ruído visual sem perder conteúdo */
+.hero-actions-single{margin-top:1.55rem}
+.hero-actions-single .btn{min-width:190px}
+.hero-notes{display:none!important}
+.proof-elegant{padding:.85rem 0;background:linear-gradient(90deg,#06234f,#082f63)}
+.proof-elegant .proof-grid{align-items:stretch}
+.proof-elegant .proof-item{padding:.78rem 1.15rem}
+.proof-elegant .proof-item strong{font-size:clamp(.98rem,1.12vw,1.18rem);line-height:1.14;letter-spacing:-.018em;max-width:24ch}
+.proof-elegant .proof-item span{font-size:.82rem;line-height:1.3;max-width:32ch;font-weight:700;color:#d8e8f7}
+.pedagogy-line{gap:0!important;justify-content:flex-end;align-items:center;color:var(--ink);font-weight:900;line-height:1.5}
+.pedagogy-line span{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;padding:.12rem 0!important;color:var(--ink)!important;font-size:.94rem}
+.pedagogy-line span:not(:last-child)::after{content:'·';display:inline-block;margin:0 .58rem;color:var(--orange);font-weight:950}
+.stage-copy .btn{align-self:flex-start}
+.coc-actions .btn{min-width:190px}
+@media(max-width:1120px){.proof-elegant .proof-grid{grid-template-columns:repeat(2,1fr)}.pedagogy-line{justify-content:flex-start}}
+@media(max-width:760px){.hero-actions-single .btn{width:100%;min-width:0}.proof-elegant{padding:.65rem 0}.proof-elegant .proof-grid{grid-template-columns:1fr 1fr;gap:.2rem}.proof-elegant .proof-item{border:0!important;padding:.72rem .55rem}.proof-elegant .proof-item strong{font-size:.94rem;max-width:none}.proof-elegant .proof-item span{font-size:.76rem;line-height:1.25}.pedagogy-line{display:block}.pedagogy-line span{display:inline}.stage-copy .btn{width:100%;align-self:stretch}}
+@media(max-width:430px){.proof-elegant .proof-grid{grid-template-columns:1fr}.proof-elegant .proof-item{padding:.62rem 0;border-bottom:1px solid rgba(255,255,255,.1)!important}.proof-elegant .proof-item:last-child{border-bottom:0!important}}
+
+</style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"EducationalOrganization","name":"Colégio Perini","url":"https://colegio-perini.vercel.app/","address":{"@type":"PostalAddress","streetAddress":"R. Adão Gonçalves da Costa, 127","addressLocality":"Carapicuíba","addressRegion":"SP","postalCode":"06321-040","addressCountry":"BR"},"telephone":"+55 11 4164-5073","email":"escolabambino@gmail.com"}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Colégio Perini - início">
+        <img src="assets/brand/logo-colegio-perini-cropped.webp" alt="Colégio Perini" width="180" height="62">
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#perini">O Perini</a>
+        <a href="#ensino">Ensino</a>
+        <a href="#coc">Sistema COC</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#estrutura">Estrutura</a>
+        <a href="#contato">Contato</a>
+        <a href="https://portal.coc.com.br/" target="_blank" rel="noopener">Portal do Aluno</a>
+        <a class="btn btn-primary btn-small" href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener">Agende uma visita</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+
+  <aside id="mobile-menu" class="mobile-menu" aria-label="Menu mobile">
+    <nav>
+      <a class="mobile-link" href="#perini">O Perini</a>
+      <a class="mobile-link" href="#ensino">Ensino</a>
+      <a class="mobile-link" href="#coc">Sistema COC</a>
+      <a class="mobile-link" href="#projetos">Projetos e vivências</a>
+      <a class="mobile-link" href="#ensino-medio">Ensino Médio</a>
+      <a class="mobile-link" href="#estrutura">Estrutura</a>
+      <a class="mobile-link" href="#contato">Contato</a>
+      <a class="mobile-link" href="https://portal.coc.com.br/" target="_blank" rel="noopener">Portal do Aluno</a>
+    </nav>
+    <div class="mobile-cta">
+      <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener">Agende uma visita</a>
+      <a class="btn btn-secondary" href="tel:+551141645073">Ligar para a escola</a>
+    </div>
+  </aside>
+
+  <main id="conteudo">
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="kicker">Colégio Perini · Carapicuíba · Desde 1987</div>
+          <h1><span>Aprender.</span><span>Pertencer.</span><span>Transformar.</span></h1>
+          <p>Uma escola que une tradição, Sistema COC, acompanhamento próximo e experiências reais para ajudar cada aluno a crescer com confiança.</p>
+          <div class="hero-actions hero-actions-single">
+            <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener">Agende uma visita</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <picture>
+            <source media="(max-width: 760px)" srcset="assets/hero/fachada-perini-mobile.webp">
+            <img src="assets/hero/fachada-perini-desktop.webp" alt="Fachada do Colégio Perini em Carapicuíba" width="1600" height="1000" loading="eager">
+          </picture>
+          <figcaption><strong>Tradição com presença.</strong><span>Uma escola próxima das famílias da região desde 1987.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="proof proof-compact proof-elegant" aria-label="Provas rápidas do Colégio Perini">
+      <div class="container proof-grid">
+        <article class="proof-item"><strong>Desde 1987</strong><span>História, presença e confiança local.</span></article>
+        <article class="proof-item"><strong>Da base ao Ensino Médio</strong><span>Do 1º ano do Ensino Fundamental à 3ª série do Ensino Médio.</span></article>
+        <article class="proof-item"><strong>Sistema COC</strong><span>Material, plataforma, avaliações e simulados.</span></article>
+        <article class="proof-item"><strong>Projetos reais</strong><span>Cultura, ciência, cidadania e mundo real.</span></article>
+      </div>
+    </section>
+
+    <section id="perini" class="section essence-section">
+      <div class="container essence-grid">
+        <div class="section-head no-margin">
+          <span class="kicker">Nossa essência</span>
+          <h2>O Perini ensina com método, acompanha de perto e valoriza o vínculo entre aluno, família e escola.</h2>
+          <p>Aprendizagem, pertencimento e formação humana caminham juntos. A rotina escolar é organizada para que o estudante desenvolva conhecimento, autonomia e responsabilidade.</p>
+        </div>
+        <div class="essence-cards">
+          <article class="essence-card"><span>01</span><h3>Aprender</h3><p>Material estruturado, professores próximos e rotina de estudo acompanhada.</p></article>
+          <article class="essence-card"><span>02</span><h3>Pertencer</h3><p>Ambiente acolhedor, diálogo com a família e olhar atento para cada estudante.</p></article>
+          <article class="essence-card"><span>03</span><h3>Transformar</h3><p>Projetos reais que desenvolvem repertório, colaboração, autoria e cidadania.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ensino" class="section surface">
+      <div class="container">
+        <div class="section-head centered">
+          <span class="kicker">Etapas de ensino</span>
+          <h2>Cada fase tem um jeito de aprender.</h2>
+          <p>Do 1º ano do Ensino Fundamental à 3ª série do Ensino Médio, a proposta amadurece com o aluno sem perder acolhimento, acompanhamento e identidade Perini.</p>
+        </div>
+        <div class="stages-grid">
+          <article id="fundamental-1" class="stage-card">
+            <figure class="stage-media">
+              <picture>
+                <source media="(max-width: 760px)" srcset="assets/ensino/fundamental-1-mobile.webp">
+                <img src="assets/ensino/fundamental-1.webp" alt="Estudante do Ensino Fundamental — Anos Iniciais em atividade de aprendizagem" width="1200" height="750" loading="lazy">
+              </picture>
+            </figure>
+            <div class="stage-copy">
+              <small>Ensino Fundamental — Anos Iniciais</small>
+              <div class="years">1º ao 5º ano</div>
+              <h3>A base que dá segurança para aprender.</h3>
+              <p>Leitura, escrita, raciocínio e autonomia aparecem em uma rotina que acolhe, organiza e fortalece a aprendizagem.</p>
+              <ul><li>Equipe docente próxima</li><li>Rotina acompanhada</li><li>Projetos com leitura, escrita e pesquisa</li></ul>
+              <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20Ensino%20Fundamental%20—%20Anos%20Iniciais%20do%20Colégio%20Perini." target="_blank" rel="noopener">Fale sobre os Anos Iniciais</a>
+            </div>
+          </article>
+
+          <article id="fundamental-2" class="stage-card reverse">
+            <figure class="stage-media">
+              <picture>
+                <source media="(max-width: 760px)" srcset="assets/ensino/fundamental-2-mobile.webp">
+                <img src="assets/ensino/fundamental-2.webp" alt="Estudantes do Ensino Fundamental — Anos Finais em atividade no Colégio Perini" width="1200" height="750" loading="lazy">
+              </picture>
+            </figure>
+            <div class="stage-copy">
+              <small>Ensino Fundamental — Anos Finais</small>
+              <div class="years">6º ao 9º ano</div>
+              <h3>Mais autonomia, repertório e acompanhamento.</h3>
+              <p>É a etapa em que o aluno amplia responsabilidade, pesquisa, participação em projetos e organização da rotina de estudo.</p>
+              <ul><li>Transição acompanhada</li><li>Pesquisa e participação ativa</li><li>Repertório cultural, científico e social</li></ul>
+              <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20Ensino%20Fundamental%20—%20Anos%20Finais%20do%20Colégio%20Perini." target="_blank" rel="noopener">Fale sobre os Anos Finais</a>
+            </div>
+          </article>
+
+          <article id="ensino-medio-card" class="stage-card featured">
+            <figure class="stage-media">
+              <picture>
+                <source media="(max-width: 760px)" srcset="assets/ensino/ensino-medio-mobile.webp">
+                <img src="assets/ensino/ensino-medio.webp" alt="Estudantes do Ensino Médio em atividade de ciência e tecnologia" width="1200" height="750" loading="lazy">
+              </picture>
+            </figure>
+            <div class="stage-copy">
+              <small>Ensino Médio</small>
+              <div class="years">1ª à 3ª série</div>
+              <h3>Preparação desde a 1ª série do Ensino Médio.</h3>
+              <p>O aluno constrói base, autonomia, rotina de estudo e estratégias para avançar com segurança até vestibulares e ENEM.</p>
+              <ul><li>Conteúdo estruturado com Sistema COC</li><li>Simulados conforme calendário pedagógico</li><li>Orientação para escolhas de futuro</li></ul>
+              <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20Ensino%20Médio%20do%20Colégio%20Perini." target="_blank" rel="noopener">Fale sobre o Ensino Médio</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="coc" class="section coc-section">
+      <div class="container coc-grid">
+        <div class="coc-copy">
+          <span class="kicker">Sistema COC</span>
+          <h2>Sistema COC com material didático, plataforma e avaliação diagnóstica.</h2>
+          <p>No Colégio Perini, o Sistema COC apoia a rotina escolar com material didático estruturado, recursos digitais, avaliações e simulados que ajudam professores, alunos e famílias a acompanhar a evolução da aprendizagem.</p>
+          <p class="coc-synthesis">O COC organiza a jornada acadêmica. O Perini acompanha o aluno de perto.</p>
+          <div class="coc-actions">
+            <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20entender%20melhor%20como%20funciona%20o%20Sistema%20COC%20no%20Colégio%20Perini." target="_blank" rel="noopener">Entenda o COC no Perini</a>
+          </div>
+        </div>
+        <div class="coc-cards" aria-label="Recursos do Sistema COC no Colégio Perini">
+          <article><strong>Material didático por etapa</strong><span>Conteúdo organizado para cada fase do percurso escolar.</span></article>
+          <article><strong>Plataforma digital</strong><span>Recursos de estudo para revisar, praticar e avançar.</span></article>
+          <article><strong>Avaliações e simulados</strong><span>Instrumentos para acompanhar desempenho e evolução.</span></article>
+          <article><strong>Acompanhamento pedagógico</strong><span>Clareza para orientar estudo, rotina e próximos passos.</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section projects-section surface">
+      <div class="container projects-intro">
+        <div class="section-head no-margin">
+          <span class="kicker">Projetos e vivências</span>
+          <h2>A escola acontecendo de verdade.</h2>
+          <p>Projetos, saídas pedagógicas, atividades culturais, ciência e convivência mostram como o aluno aprende para além da sala de aula.</p>
+        </div>
+        <div class="pedagogy-list pedagogy-line" aria-label="Competências trabalhadas nos projetos">
+          <span>Pesquisa</span><span>Oralidade</span><span>Investigação</span><span>Autoria</span><span>Colaboração</span><span>Cidadania</span>
+        </div>
+      </div>
+
+      <div class="container gallery-wrap" aria-label="Galeria de vivências do Colégio Perini">
+        <div class="gallery-head">
+          <h3>Vivências que viram repertório.</h3>
+          <p>Cada imagem mostra uma experiência com função pedagógica: pesquisar, apresentar, investigar, conviver, criar ou observar o mundo real.</p>
+        </div>
+        <div class="editorial-gallery">
+          <figure class="gallery-item large">
+            <img src="assets/reais/novas/feira-das-nacoes.webp" alt="Alunos e equipe do Colégio Perini em projeto Feira das Nações" width="1448" height="1086" loading="lazy">
+            <figcaption><strong>Feira das Nações</strong><span>Pesquisa, cultura e apresentação oral.</span></figcaption>
+          </figure>
+          <figure class="gallery-item tall">
+            <img src="assets/reais/novas/ciencia-laboratorio.webp" alt="Estudantes do Colégio Perini em atividade prática de laboratório" width="941" height="1672" loading="lazy">
+            <figcaption><strong>Laboratório e investigação</strong><span>Observação, hipótese e prática científica.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/reais/novas/mapa-gigante.webp" alt="Alunos do Colégio Perini em atividade com mapa gigante" width="1086" height="1448" loading="lazy">
+            <figcaption><strong>Mapa gigante</strong><span>Geografia, leitura espacial e aprendizagem ativa.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/reais/novas/animalia-grupo-misto.webp" alt="Alunos do Colégio Perini em saída pedagógica no Animalia Park" width="1672" height="941" loading="lazy">
+            <figcaption><strong>Saídas pedagógicas</strong><span>Repertório, convivência e mundo real.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/reais/colegio-perini-teatro-palco-card.webp" alt="Alunos do Colégio Perini em apresentação cultural no palco" width="900" height="650" loading="lazy">
+            <figcaption><strong>Apresentações culturais</strong><span>Comunicação, expressão e trabalho coletivo.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/reais/novas/arte-maos.webp" alt="Mãos de alunos com tinta azul em atividade artística" width="1086" height="1448" loading="lazy">
+            <figcaption><strong>Arte e autoria</strong><span>Criatividade, colaboração e expressão.</span></figcaption>
+          </figure>
+        </div>
+        <div class="gallery-cta">
+          <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20o%20Colégio%20Perini%20de%20perto." target="_blank" rel="noopener">Agende uma visita e conheça de perto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ensino-medio" class="section high-school-section">
+      <div class="container high-school-grid">
+        <div class="high-school-copy">
+          <span class="kicker">Ensino Médio</span>
+          <h2>Preparação desde a 1ª série do Ensino Médio.</h2>
+          <p>Desde a 1ª série do Ensino Médio, o aluno constrói base, autonomia, rotina de estudo e estratégias para avançar com segurança até os vestibulares e o ENEM.</p>
+          <div class="phase-list">
+            <article><span>1ª e 2ª séries</span><h3>Construção de base</h3><p>Autonomia, avaliações, aprofundamento progressivo e organização da rotina de estudos.</p></article>
+            <article><span>3ª série do Ensino Médio</span><h3>Revisão e aprofundamento</h3><p>Simulados conforme calendário pedagógico, resolução de questões e estratégias de prova.</p></article>
+          </div>
+          <div class="safe-note">Simulados COC e ENEM conforme calendário pedagógico.</div>
+          <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20informações%20sobre%20o%20Ensino%20Médio%20do%20Colégio%20Perini." target="_blank" rel="noopener">Conheça o Ensino Médio</a>
+        </div>
+        <figure class="high-school-photo">
+          <img src="assets/reais/novas/ciencia-detalhe.webp" alt="Experimento com tubos de ensaio em atividade científica no Colégio Perini" width="941" height="1672" loading="lazy">
+          <figcaption><strong>Ciência com prática e registro.</strong><span>Investigação, observação e repertório acadêmico no Ensino Médio.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section team-section surface-blue">
+      <div class="container team-grid">
+        <div class="team-copy">
+          <span class="kicker">Direção e equipe</span>
+          <h2>Direção presente e equipe próxima.</h2>
+          <p>A presença da equipe no cotidiano escolar ajuda a manter diálogo, organização e acompanhamento em cada etapa.</p>
+          <div class="commitment-grid">
+            <article><strong>Coordenação próxima</strong><span>Rotina acompanhada com cuidado.</span></article>
+            <article><strong>Diálogo com famílias</strong><span>Parceria para orientar cada etapa.</span></article>
+            <article><strong>Olhar atento</strong><span>Cada estudante é acompanhado em sua jornada.</span></article>
+          </div>
+        </div>
+        <figure class="team-photo">
+          <img src="assets/reais/novas/lideranca-dupla.webp" alt="Equipe de liderança do Colégio Perini em retrato institucional" width="1086" height="1448" loading="lazy">
+          <figcaption><strong>História e proximidade.</strong><span>Uma escola feita por pessoas presentes.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="estrutura" class="section structure-section">
+      <div class="container structure-grid">
+        <div class="structure-copy">
+          <span class="kicker">Estrutura e vida escolar</span>
+          <h2>Ambientes e vivências reais para aprender, conviver e crescer.</h2>
+          <p>A estrutura da escola aparece na rotina: atendimento, salas, convivência, projetos, atividades e experiências que ajudam o aluno a pertencer.</p>
+          <ul><li>Fachada e atendimento</li><li>Rotina escolar</li><li>Projetos culturais</li><li>Convivência</li><li>Trabalho de campo</li><li>Saídas pedagógicas</li></ul>
+        </div>
+        <div class="structure-photos">
+          <figure><img src="assets/reais/colegio-perini-convivencia-card.webp" alt="Alunos do Colégio Perini em momento de convivência escolar" width="900" height="650" loading="lazy"><figcaption>Convivência escolar</figcaption></figure>
+          <figure><img src="assets/reais/colegio-perini-trabalho-de-campo-card.webp" alt="Alunos do Colégio Perini em trabalho de campo" width="900" height="650" loading="lazy"><figcaption>Trabalho de campo</figcaption></figure>
+          <figure><img src="assets/reais/colegio-perini-equipe-evento-card.webp" alt="Equipe do Colégio Perini em atividade cultural com alunos" width="900" height="650" loading="lazy"><figcaption>Equipe envolvida</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section family-section surface">
+      <div class="container family-box">
+        <div>
+          <span class="kicker">Família + escola</span>
+          <h2>Família e escola no mesmo caminho.</h2>
+          <p>Acompanhamento próximo, diálogo e parceria fortalecem o desenvolvimento de cada aluno. A melhor escolha acontece quando a família conhece a rotina e entende como a escola acompanha cada etapa.</p>
+        </div>
+        <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener">Agende uma visita</a>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+      <div class="container contact-final-grid">
+        <div class="contact-copy">
+          <span class="kicker">Contato</span>
+          <h2>Venha conhecer o Perini de perto.</h2>
+          <p>A melhor forma de escolher uma escola é sentir a rotina, conversar com a equipe e entender como seu filho será acompanhado.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Colégio%20Perini." target="_blank" rel="noopener">Agendar visita pelo WhatsApp</a>
+            <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=R.+Adão+Gonçalves+da+Costa,+127,+Carapicuíba,+SP" target="_blank" rel="noopener">Abrir localização no mapa</a>
+          </div>
+        </div>
+        <address class="contact-card">
+          <div><small>Endereço</small><span>R. Adão Gonçalves da Costa, 127<br>Jardim Jussara — Carapicuíba/SP — 06321-040</span></div>
+          <div><small>WhatsApp</small><a href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener">(11) 98366-8260</a></div>
+          <div><small>Telefone</small><a href="tel:+551141645073">(11) 4164-5073</a></div>
+          <div><small>E-mail</small><a href="mailto:escolabambino@gmail.com">escolabambino@gmail.com</a></div>
+        </address>
+        <div class="location-card" aria-label="Localização do Colégio Perini">
+          <strong>Carapicuíba</strong>
+          <span>Jardim Jussara · Região de Osasco</span>
+          <a href="https://www.google.com/maps/search/?api=1&query=R.+Adão+Gonçalves+da+Costa,+127,+Carapicuíba,+SP" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/brand/logo-colegio-perini-cropped.webp" alt="Colégio Perini" width="180" height="62">
+        <p>Educação com acolhimento, acompanhamento pedagógico e formação humana em Carapicuíba.</p>
+      </div>
+      <div><h3>O Perini</h3><a href="#perini">Nossa essência</a><a href="#projetos">Projetos</a><a href="#estrutura">Estrutura</a></div>
+      <div><h3>Ensino</h3><a href="#fundamental-1">Anos Iniciais</a><a href="#fundamental-2">Anos Finais</a><a href="#ensino-medio">Ensino Médio</a><a href="#coc">Sistema COC</a></div>
+      <div><h3>Contato</h3><a href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener">WhatsApp</a><a href="tel:+551141645073">Telefone</a><a href="https://portal.coc.com.br/" target="_blank" rel="noopener">Portal do Aluno</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> Colégio Perini.</span><span>Site institucional do Colégio Perini.</span></div>
+  </footer>
+
+  <nav class="sticky-mobile-cta" aria-label="Ações rápidas"><a href="https://wa.me/5511983668260?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Colégio%20Perini." target="_blank" rel="noopener">Agendar visita</a><a href="https://wa.me/5511983668260?text=Olá!%20Conheci%20o%20Colégio%20Perini%20pelo%20site%20e%20gostaria%20de%20falar%20com%20a%20equipe." target="_blank" rel="noopener">WhatsApp</a></nav>
+  <script>
+
+(function(){
+  const btn=document.getElementById('menu-toggle');
+  const menu=document.getElementById('mobile-menu');
+  const close=()=>{menu?.classList.remove('is-open');document.body.classList.remove('menu-open');btn?.setAttribute('aria-expanded','false')};
+  btn?.addEventListener('click',()=>{const open=!menu.classList.contains('is-open');menu.classList.toggle('is-open',open);document.body.classList.toggle('menu-open',open);btn.setAttribute('aria-expanded',String(open));});
+  document.querySelectorAll('.mobile-link').forEach(a=>a.addEventListener('click',close));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+})();
+
+</script>
+</body>
+</html>

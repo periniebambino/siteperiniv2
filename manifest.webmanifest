@@ -1,0 +1,15 @@
+{
+  "name": "Colégio Perini",
+  "short_name": "Perini",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#082f63",
+  "icons": [
+    {
+      "src": "assets/brand/logo-colegio-perini-cropped.png",
+      "sizes": "879x414",
+      "type": "image/png"
+    }
+  ]
+}
