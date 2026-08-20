@@ -102,16 +102,18 @@
     stages.innerHTML = content.stages.map((stage, index) => {
       const stageMessage = `Olá! Conheci o Colégio Perini pelo site e gostaria de informações sobre ${stage.label}.`;
       const stageWhats = whatsAppUrl(stageMessage);
+      const stageArtSize = {
+        'fundamental-1': [1369, 1149],
+        'fundamental-2': [1254, 1254],
+        'ensino-medio': [1254, 1254]
+      }[stage.id] || [1254, 1254];
       return `
         <article class="stage-card" data-reveal>
-          <div class="stage-media stage-identity stage-identity-${index + 1}" aria-hidden="true">
-            <span class="stage-identity-kicker">${stage.label}</span>
-            <strong>${stage.years.replace(/^Do |^Da /, '')}</strong>
-            <small>${index === 0 ? 'Base' : index === 1 ? 'Autonomia' : 'Preparação'}</small>
-            <i></i>
+          <div class="stage-media stage-image stage-image-${stage.id}" aria-hidden="true">
+            <img src="${publicAsset(`assets/stages/${stage.id}.webp`)}" alt="" loading="lazy" width="${stageArtSize[0]}" height="${stageArtSize[1]}">
           </div>
           <div class="stage-copy">
-            <span>${stage.label} · ${stage.years.replace(/^Do |^Da /, '')}</span>
+            <span>${stage.label}</span>
             <h3>${stage.headline || stage.label}</h3>
             <p>${stage.text}</p>
             <div class="stage-actions">

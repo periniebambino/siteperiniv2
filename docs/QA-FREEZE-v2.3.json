@@ -1,0 +1,13 @@
+{
+  "changed": [
+    "VERSION.txt",
+    "js/site.js",
+    "css/responsive.css",
+    "css/components.css"
+  ],
+  "added": [
+    "docs/CHANGELOG-STAGES-v2.3.md"
+  ],
+  "missing": [],
+  "unexpected_changes": []
+}
