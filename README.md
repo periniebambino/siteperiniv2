@@ -43,3 +43,8 @@ Abra primeiro `docs/INDEX-ATIVO.md`.
 
 ## Publicação
 Ainda não publicar como versão final. Domínio, canonical, rotas/GitHub e limpeza de release entram somente depois da homologação das páginas internas.
+
+## MASTER v2.4 — alteração cirúrgica
+- Hero: somente CTA “Agende uma visita”.
+- Vídeo COC: capa usando frame do próprio vídeo.
+- Demais áreas permanecem congeladas.
