@@ -1,0 +1,24 @@
+{
+  "h1_count": 1,
+  "duplicate_ids": [],
+  "href_hash_count": 0,
+  "images_missing_alt": [],
+  "images_missing_dimensions": [],
+  "missing_assets": [],
+  "docs": [
+    "ANALYTICS-EVENTS.md",
+    "BRAND.md",
+    "CHANGELOG-HOME-MASTER-v2.1.md",
+    "CHECKLIST-PUBLICACAO.md",
+    "CONTENT.md",
+    "DECISIONS.md",
+    "INDEX-ATIVO.md",
+    "MASTER-RULES.md",
+    "PHOTO-MAP-MASTER-v2.1.md",
+    "PROJECT.md",
+    "QA-HOME-MASTER-v2.1-DIAGRAMACAO.md",
+    "SOURCES.md"
+  ],
+  "stage_uses_img_tag": false,
+  "stage_identity_present": true
+}

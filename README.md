@@ -1,23 +1,45 @@
-# Colégio Perini — Release Final Publicável Responsivo Elegante
+# COLÉGIO PERINI — MASTER HOME v2.1
 
-## Como abrir
-Abra `index.html` em um servidor estático ou publique o conteúdo desta pasta no GitHub Pages, Vercel ou hospedagem estática.
+**Status:** Home em homologação visual e tipográfica. Ainda não é o pacote final de produção do site inteiro.
 
-## Arquivo principal
-`index.html` deve permanecer na raiz junto com `css/`, `js/` e `assets/`.
+**Constituição:** estrutura visual V3.4 + copy mais recente aprovada + fotografia real recebida em 19/08/2026 + melhorias técnicas que não descaracterizam o layout.
+
+## O que esta versão resolve
+- Diagramação revisada em 1440, 1024, 768, 430 e 390 px.
+- H2s da Home limitados a 2–3 linhas nos breakpoints homologados.
+- Cards de etapas sem fotografias de alunos quando a série/etapa não está confirmada.
+- Uso das fotos reais apenas como prova transversal: projetos, ciência, expressão e aprendizagem prática.
+- Correção do bloco Corpo docente, que antes descrevia uma professora sem a fotografia comprovar essa informação.
+- Grade de projetos sem buraco visual em grupos com quantidade ímpar de cards.
+- Revisão automática de últimas linhas residuais em títulos e parágrafos principais.
+
+## Regra importante sobre fotografia
+Nenhuma imagem pode ser usada para afirmar série, etapa, cargo de adulto ou nome de atividade sem confirmação. O mapa ativo está em `docs/PHOTO-MAP-MASTER-v2.1.md`.
+
+## Abrir para homologação
+- `index.html` — Home conectada aos arquivos do projeto.
+- `ABRIR_PREVIEW_LOCAL_MASTER.html` — preview autônomo, sem depender de servidor local.
+
+## Documentação ativa
+Abra primeiro `docs/INDEX-ATIVO.md`.
+
+## Rotas presentes no pacote
+- `/`
+- `/fundamental-1`
+- `/fundamental-2`
+- `/ensino-medio`
+- `/sistema-de-ensino`
+- `/estrutura-e-vida-escolar`
+- `/contato`
+
+**Atenção:** as páginas internas ainda não passaram pela mesma homologação tipográfica/fotográfica da Home v2.1. Não tratar este ZIP como release final do site inteiro.
+
+## Onde editar
+- Contatos, WhatsApp, Portal, campanha e vídeo COC: `js/config.js`
+- Conteúdo da Home e dados compartilhados: `js/content.js`
+- Imagens principais: `js/images.js`
+- Cores/tokens: `css/tokens.css`
+- Regras de composição: `css/base.css`, `css/components.css`, `css/responsive.css`
 
 ## Publicação
-Envie o conteúdo inteiro desta pasta publicável. Não envie a pasta de validação junto.
-
-## Dependências externas
-Não há dependências externas obrigatórias para renderizar o site. Links externos: WhatsApp, Google Maps e Portal COC.
-
-## Principais correções desta versão
-- Padronização de containers, tipografia, dobras e cards.
-- Recalibração do hero e das seções para desktop, notebook, tablet e mobile.
-- Ajuste de imagens e crops via `object-position` e `aspect-ratio`.
-- Redução de ruído visual, CTAs aleatórios e elementos genéricos.
-- CSS reescrito de forma limpa para a estrutura atual.
-
-## Pendência real
-Trocar domínio provisório em canonical/robots/sitemap quando o domínio final oficial for definido.
+Ainda não publicar como versão final. Domínio, canonical, rotas/GitHub e limpeza de release entram somente depois da homologação das páginas internas.

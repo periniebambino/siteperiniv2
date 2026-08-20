@@ -1,0 +1,39 @@
+{
+  "nojekyll": true,
+  "root_index": true,
+  "preview_removed": true,
+  "absolute_internal_refs": [
+    {
+      "file": "404.html",
+      "url": "/"
+    }
+  ],
+  "missing_local_assets": [],
+  "largest_file": {
+    "bytes": 468020,
+    "mb": 0.45,
+    "file": "assets/real-2026/animalia-grupo-misto.webp"
+  },
+  "unused_assets_removed": [
+    "assets/ensino/fundamental-2-720.webp",
+    "assets/real-2026/arte-maos-tinta-720.webp",
+    "assets/real-2026/ciencia-aluna-tubos-720.webp",
+    "assets/real-2026/mapa-gigante-720.webp",
+    "assets/real-2026/arte-maos-tinta-1200.webp",
+    "assets/real-2026/ciencia-aluna-tubos.webp",
+    "assets/real-2026/mapa-gigante.webp",
+    "assets/real-2026/comunidade-equipe-evento.webp",
+    "assets/real-2026/animalia-meninos.webp",
+    "assets/real-2026/arte-maos-tinta.webp",
+    "assets/real-2026/mapa-gigante-1200.webp",
+    "assets/real-2026/animalia-grupo-misto-1200.webp",
+    "assets/real-2026/animalia-meninos-720.webp",
+    "assets/real-2026/animalia-meninos-1200.webp",
+    "assets/real-2026/comunidade-equipe-evento-1200.webp",
+    "assets/real-2026/ciencia-aluna-tubos-1200.webp",
+    "assets/real-2026/comunidade-equipe-evento-720.webp",
+    "assets/real-2026/animalia-grupo-misto-720.webp"
+  ],
+  "file_count": 93,
+  "browser_upload_under_100_files": true
+}
