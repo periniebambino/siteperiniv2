@@ -76,3 +76,48 @@
 @media (max-width: 430px){
   .stage-actions{margin-top:1.15rem}
 }
+
+/* MASTER v2.4 — enquadramento da capa do vídeo COC no mobile. */
+@media(max-width:720px){.coc-video-cover{object-position:center center}}
+
+/* MASTER v2.5 — correção cirúrgica dos heroes das páginas de ciclos no mobile.
+   Preserva a proporção horizontal das imagens e evita cortes laterais excessivos.
+   Desktop/tablet acima de 720px permanecem inalterados. */
+@media(max-width:720px){
+  .inner-page .page-hero-media{
+    aspect-ratio:auto;
+    height:auto;
+    max-width:none;
+  }
+  .inner-page .page-hero-media img{
+    display:block;
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    object-position:center center;
+  }
+}
+
+
+/* MASTER v2.6 — hero dos ciclos: padrão responsivo sem corte e sem títulos quebrados em excesso. */
+@media(max-width:1080px){
+  .inner-page .cycle-hero .page-hero-layout{grid-template-columns:1fr;gap:2.2rem}
+  .inner-page .cycle-hero .page-hero-copy{max-width:760px}
+  .inner-page .cycle-hero .page-hero-copy h1{max-width:12ch;font-size:clamp(3.2rem,7vw,5rem)}
+  .inner-page .cycle-hero .page-hero-media{width:100%;max-width:900px;aspect-ratio:1.598/1}
+}
+@media(max-width:720px){
+  .inner-page .cycle-hero{padding:104px 0 44px}
+  .inner-page .cycle-hero .page-hero-layout{gap:1.65rem}
+  .inner-page .cycle-hero .page-breadcrumb{margin-bottom:1rem}
+  .inner-page .cycle-hero .page-hero-copy h1{font-size:clamp(2.55rem,11vw,3.55rem);line-height:.96;letter-spacing:-.05em;max-width:10ch;margin:.55rem 0 .95rem}
+  .inner-page .cycle-hero .page-hero-copy>p{font-size:1rem;line-height:1.55;max-width:34ch}
+  .inner-page .cycle-hero .page-hero-actions{display:flex;margin-top:1.25rem}
+  .inner-page .cycle-hero .page-hero-actions .btn{width:auto}
+  .inner-page .cycle-hero .page-hero-media{aspect-ratio:auto;height:auto;max-width:none;border-radius:16px 34px 34px 34px}
+  .inner-page .cycle-hero .page-hero-media img{width:100%;height:auto;object-fit:contain}
+}
+@media(max-width:430px){
+  .inner-page .cycle-hero .page-hero-copy h1{font-size:clamp(2.5rem,12vw,3.25rem);max-width:9.5ch}
+  .inner-page .cycle-hero .page-hero-copy>p{max-width:31ch}
+}

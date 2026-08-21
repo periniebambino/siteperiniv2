@@ -180,3 +180,22 @@ body.campaign-active .hero{padding-top:168px}
 .stage-image-fundamental-2 img{object-position:center 49%}
 .stage-image-ensino-medio img{object-position:center 51%}
 .stage-card:hover .stage-image img{transform:scale(1.012)}
+
+/* MASTER v2.4 — capa real do vídeo COC: frame do próprio vídeo, sem alterar o player. */
+.coc-video-cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-1;transform:scale(1.01);transition:transform .45s var(--ease);background:#071f45}
+.coc-video-facade:has(.coc-video-cover){background:#071f45}
+.coc-video-facade:has(.coc-video-cover):before{z-index:0;background:linear-gradient(180deg,rgba(3,21,48,.10) 0%,rgba(3,21,48,.04) 42%,rgba(3,21,48,.72) 100%)}
+.coc-video-facade:has(.coc-video-cover) .coc-video-orbit{display:none}
+.coc-video-facade:hover .coc-video-cover{transform:scale(1.025)}
+
+
+/* MASTER v2.6 — padrão cirúrgico de hero para os três ciclos. */
+.inner-page .cycle-hero{padding:142px 0 72px}
+.inner-page .cycle-hero .page-hero-layout{grid-template-columns:minmax(0,.92fr) minmax(500px,1.08fr);gap:clamp(3rem,6vw,6rem);align-items:center}
+.inner-page .cycle-hero .page-hero-copy{max-width:620px}
+.inner-page .cycle-hero .page-hero-copy h1{font-size:clamp(3.35rem,5.15vw,5.45rem);line-height:.94;letter-spacing:-.055em;max-width:10.8ch;margin:.7rem 0 1.2rem;text-wrap:balance}
+.inner-page .cycle-hero .page-hero-copy>p{font-size:clamp(1.05rem,1.28vw,1.22rem);line-height:1.55;max-width:52ch}
+.inner-page .cycle-hero .page-hero-actions{margin-top:1.55rem}
+.inner-page .cycle-hero .page-hero-media{aspect-ratio:1.598/1;border-radius:20px 56px 56px 56px;background:#fff;box-shadow:0 24px 70px rgba(12,58,106,.12);display:flex;align-items:center;justify-content:center}
+.inner-page .cycle-hero .page-hero-media img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#fff}
+.inner-page .cycle-hero .page-proof{display:none}
