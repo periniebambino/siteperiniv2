@@ -246,7 +246,7 @@
       '@type': 'EducationalOrganization',
       name: cfg.school.name,
       url: cfg.school.baseUrl,
-      logo: `${cfg.school.baseUrl}assets/brand/logo-colegio-perini-cropped.png`,
+      logo: `${cfg.school.baseUrl}assets/brand/logo-colegio-perini-cropped.webp`,
       telephone: cfg.contact.phoneDisplay,
       email: cfg.contact.email,
       address: {

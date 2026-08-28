@@ -17,3 +17,61 @@ iframe{border:0}
   .title-lg{font-size:clamp(2.45rem,10.6vw,3.55rem);max-width:15ch}
   .title-md{font-size:clamp(2.2rem,9.4vw,3.15rem);max-width:16ch}
 }
+
+/* MASTER v2.7 — TITLE SYSTEM
+   Normalização tipográfica por função. Mantém a personalidade aprovada,
+   mas evita H1/H2 arbitrários, linhas órfãs e massas desproporcionais. */
+.inner-page .page-hero-copy h1,
+.inner-page .visit-intro h1{
+  font-size:clamp(3.15rem,5vw,5.25rem);
+  line-height:.96;
+  letter-spacing:-.05em;
+  max-width:12ch;
+  margin-bottom:1.15rem;
+  text-wrap:balance;
+}
+.inner-page .editorial-intro h2,
+.inner-page .real-story-copy h2,
+.inner-page .real-gallery-section .section-head h2{
+  font-size:clamp(2.55rem,4vw,4.25rem);
+  line-height:.99;
+  letter-spacing:-.04em;
+  max-width:15ch;
+  text-wrap:balance;
+}
+.inner-page .content-band h2{
+  font-size:clamp(2.35rem,3.45vw,3.65rem);
+  line-height:1;
+  letter-spacing:-.038em;
+  max-width:18ch;
+  text-wrap:balance;
+}
+.inner-page .page-cta h2{
+  font-size:clamp(2.25rem,3.25vw,3.45rem);
+  line-height:1;
+  letter-spacing:-.036em;
+  max-width:18ch;
+  text-wrap:balance;
+}
+.inner-page .editorial-item h3,
+.inner-page .structure-page-card h3{
+  font-size:clamp(1.32rem,1.65vw,1.7rem);
+  line-height:1.08;
+  letter-spacing:-.025em;
+  text-wrap:balance;
+}
+.inner-page .page-hero-copy>p,
+.inner-page .editorial-intro>p,
+.inner-page .content-band p,
+.inner-page .page-cta p,
+.inner-page .visit-intro>p{
+  text-wrap:pretty;
+}
+/* Heroes dos ciclos já aprovados: a v2.6 continua soberana. */
+.inner-page .cycle-hero .page-hero-copy h1{
+  font-size:clamp(3.35rem,5.15vw,5.45rem);
+  line-height:.94;
+  max-width:10.8ch;
+}
+/* Contato: H1 de contexto, não um outdoor. */
+.inner-page.contact-page .visit-intro h1{max-width:10.5ch}

@@ -199,3 +199,27 @@ body.campaign-active .hero{padding-top:168px}
 .inner-page .cycle-hero .page-hero-media{aspect-ratio:1.598/1;border-radius:20px 56px 56px 56px;background:#fff;box-shadow:0 24px 70px rgba(12,58,106,.12);display:flex;align-items:center;justify-content:center}
 .inner-page .cycle-hero .page-hero-media img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#fff}
 .inner-page .cycle-hero .page-proof{display:none}
+
+/* MASTER v2.7 — medidas e imagens das páginas internas. */
+.inner-page:not(.coc-page) .page-hero:not(.cycle-hero) .page-hero-layout{
+  grid-template-columns:minmax(0,.9fr) minmax(480px,1.1fr);
+  gap:clamp(3rem,6vw,5.5rem);
+}
+.inner-page:not(.coc-page) .page-hero:not(.cycle-hero) .page-hero-media{
+  aspect-ratio:16/9;
+  border-radius:20px 52px 52px 52px;
+  background:#fff;
+}
+.inner-page:not(.coc-page) .page-hero:not(.cycle-hero) .page-hero-media img{
+  width:100%;height:100%;object-fit:contain;object-position:center;background:#fff;
+}
+/* Estrutura usa um asset horizontal 16:9: não recortar para preencher caixa quase quadrada. */
+.inner-page.structure-page .page-hero-media{aspect-ratio:1672/941}
+/* Fotos editoriais: altura intencional e crop estável. */
+.inner-page .real-story-media,
+.inner-page .real-gallery-card,
+.inner-page .visit-team-photo{overflow:hidden}
+.inner-page .real-story-media img,
+.inner-page .real-gallery-card img{object-fit:cover}
+/* CTA final: conteúdo enxuto e altura guiada pela copy, não por espaço vazio. */
+.inner-page .page-cta-inner{min-height:0}

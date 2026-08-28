@@ -13,7 +13,7 @@ window.PERINI_CONTENT = {
     contactText: 'Na visita, você pode conversar sobre etapa de interesse, acompanhamento, Sistema COC, projetos, estrutura e rotina escolar.'
   },
   contactPage: {
-    title: 'Visite o Perini e converse sobre o que importa para a sua família.',
+    title: 'Conheça o Perini de perto.',
     text: 'Escolher uma escola envolve perguntas que vão além de localização ou material didático. Na visita, você pode conhecer os ambientes e conversar sobre a etapa de interesse, acompanhamento dos estudantes, Sistema COC, projetos, preparação acadêmica, rotina e parceria com as famílias.'
   },
   proof: [

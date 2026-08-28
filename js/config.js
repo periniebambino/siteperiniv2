@@ -4,7 +4,7 @@ window.PERINI_CONFIG = {
     city: 'Carapicuíba',
     state: 'SP',
     since: '1987',
-    baseUrl: 'https://colegio-perini.vercel.app/'
+    baseUrl: 'https://periniebambino.github.io/siteperiniv2/'
   },
   contact: {
     address: 'R. Adão Gonçalves da Costa, 127 — Jardim Jussara — Carapicuíba/SP — 06321-040',

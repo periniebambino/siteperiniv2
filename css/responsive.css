@@ -121,3 +121,35 @@
   .inner-page .cycle-hero .page-hero-copy h1{font-size:clamp(2.5rem,12vw,3.25rem);max-width:9.5ch}
   .inner-page .cycle-hero .page-hero-copy>p{max-width:31ch}
 }
+
+/* MASTER v2.7 — TITLE SYSTEM + acabamento responsivo. */
+@media(max-width:1080px){
+  .inner-page .page-hero:not(.cycle-hero) .page-hero-layout{grid-template-columns:1fr;gap:2.15rem}
+  .inner-page .page-hero:not(.cycle-hero) .page-hero-copy{max-width:760px}
+  .inner-page .page-hero:not(.cycle-hero) .page-hero-media{width:100%;max-width:900px}
+  .inner-page .editorial-intro h2,.inner-page .real-story-copy h2,.inner-page .real-gallery-section .section-head h2{max-width:18ch}
+}
+@media(max-width:720px){
+  .inner-page .page-hero:not(.cycle-hero){padding:104px 0 46px}
+  .inner-page .page-hero:not(.cycle-hero) .page-hero-layout{gap:1.6rem}
+  .inner-page .page-hero-copy h1,.inner-page .visit-intro h1{
+    font-size:clamp(2.55rem,11vw,3.45rem);line-height:.98;letter-spacing:-.045em;max-width:10.5ch;margin:.55rem 0 .9rem
+  }
+  .inner-page .page-hero-copy>p,.inner-page .visit-intro>p{font-size:1rem;line-height:1.55;max-width:35ch}
+  .inner-page .editorial-intro h2,.inner-page .real-story-copy h2,.inner-page .real-gallery-section .section-head h2{
+    font-size:clamp(2.25rem,9.7vw,3.15rem);line-height:1;max-width:14ch
+  }
+  .inner-page .content-band h2,.inner-page .page-cta h2{
+    font-size:clamp(2.1rem,9vw,2.85rem);line-height:1.01;max-width:15ch
+  }
+  .inner-page .page-hero:not(.cycle-hero) .page-hero-media{aspect-ratio:auto;height:auto;border-radius:16px 34px 34px 34px}
+  .inner-page .page-hero:not(.cycle-hero) .page-hero-media img{width:100%;height:auto;object-fit:contain}
+  .inner-page.contact-page .visit-page{padding:104px 0 58px}
+  .inner-page.contact-page .visit-intro h1{max-width:9ch}
+  .inner-page.contact-page .visit-team-photo{aspect-ratio:4/3;margin-top:1.35rem}
+  .inner-page.contact-page .visit-team-photo img{object-position:center 38%}
+}
+@media(max-width:430px){
+  .inner-page .page-hero-copy h1,.inner-page .visit-intro h1{font-size:clamp(2.45rem,11.7vw,3.05rem);max-width:10ch}
+  .inner-page .editorial-intro h2,.inner-page .real-story-copy h2,.inner-page .real-gallery-section .section-head h2{font-size:clamp(2.15rem,9.6vw,2.75rem)}
+}
